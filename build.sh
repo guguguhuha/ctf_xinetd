@@ -8,5 +8,5 @@ sudo docker build -t $image_name .
 
 unset run_binary_cmd
 
-# sudo docker run -p 9999:9999 $image_name
+sudo docker run -p 9999:9999 $image_name
 unset image_name
